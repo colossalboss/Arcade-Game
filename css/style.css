@@ -1,3 +1,39 @@
 body {
     text-align: center;
 }
+
+.modal-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.438);
+}
+
+.modal-body {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    transform: translate(-50%, -50%);
+}
+
+.show {
+    display: none;
+}
+
+h1 {
+    color: green;
+}
+
+.restart {
+    padding: 8px;
+    font-size: 20px;
+}
+
+.restart:hover {
+    cursor: pointer;
+}
